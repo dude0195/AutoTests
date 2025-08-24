@@ -1,0 +1,21 @@
+@"
+# Python / IDE
+.venv/
+__pycache__/
+.pytest_cache/
+.idea/
+.vscode/
+
+# Playwright
+.pw_telegram/
+playwright-report/
+test-results/
+trace.zip
+
+# Локальные данные/секреты
+auth.json
+balances.json
+balances_api_raw.json
+inventory.json
+user_data.json
+"@ | Set-Content -Encoding utf8 .gitignore
